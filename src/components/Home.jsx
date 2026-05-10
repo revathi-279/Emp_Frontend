@@ -2,7 +2,7 @@ import React from "react";
 
 function Home() {
   return (
-    <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
+    <div className="min-h-screen bg-gray-100 flex justify-center pt-16 px-6">
       <div className="max-w-3xl w-full bg-white rounded-2xl shadow p-5">
         
         {/* Title */}
