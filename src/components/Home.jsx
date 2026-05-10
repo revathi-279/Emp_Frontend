@@ -3,7 +3,7 @@ import React from "react";
 function Home() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-6">
-      <div className="max-w-3xl w-full bg-white rounded-2xl shadow p-8">
+      <div className="max-w-3xl w-full bg-white rounded-2xl shadow p-5">
         
         {/* Title */}
         <h2 className="text-center text-3xl font-bold text-pink-700 mb-6">
@@ -32,7 +32,7 @@ function Home() {
           </div>
 
           <div className="bg-pink-50 p-4 rounded-lg border">
-            <h3 className="font-semibold text-pink-700">Delete</h3>
+            <h3 className="font-semibold text-pink-700">Delete</h3> 
             <p className="text-sm text-gray-600">Remove Records</p>
           </div>
         </div>
