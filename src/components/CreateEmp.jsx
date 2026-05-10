@@ -45,15 +45,15 @@ function CreateEmp() {
   }
   if(loading)
   {
-    return <p className='text-center text-4xl text-pink-800'> Loading..Please Wait</p>
+    return <p className='text-center text-3xl text-red-800'> Loading..Please Wait</p>
   }
   if(error)
   {
-   return <p className='text-center text-4xl text-red-600'></p>
+   return <p className='text-center text-4xl text-red-800'></p>
   }
   return (
     <div>
-        <h1 className='text-5xl text-center text-pink-800'>Create New Employee</h1>
+        <h1 className='text-3xl text-center text-red-800'>Create New Employee</h1>
         {/* form */}
         <form className=" max-w-md mx-auto mt-10" onSubmit={handleSubmit(onFormSubmit)}>
         <input type="text" 
@@ -81,7 +81,7 @@ function CreateEmp() {
         placeholder='Enter the company name' 
         className='mb-5 border p-3 w-full rounded-2xl'/>
 
-        <button type = "submit" className = "text-2xl rounded-2xl bg-pink-200 text-pink-800 block mx-auto p-4"> Add Employee </button>
+        <button type = "submit" className = "text-xl rounded-2xl bg-red-100 text-red-900 block mx-auto p-4"> Add Employee </button>
         
         </form>
     </div>

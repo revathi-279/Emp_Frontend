@@ -33,7 +33,7 @@ function EditEmployee() {
   }
   return (
     <div>
-        <h1 className='text-5xl text-center text-pink-900'>Edit Employee</h1>
+        <h1 className='text-5xl text-center text-red-900'>Edit Employee</h1>
         {/* form */}
         <form className=" max-w-md mx-auto mt-10" onSubmit={handleSubmit(saveModifiedEmp)}>
         <input type="text" 
@@ -63,7 +63,7 @@ function EditEmployee() {
         placeholder='Enter the company name' 
         className='mb-5 border p-3 w-full rounded-2xl'/>
 
-        <button type = "submit" className = "text-2xl rounded-2xl bg-pink-200 text-pink-900 block mx-auto p-3">Save</button>
+        <button type = "submit" className = "text-2xl rounded-2xl bg-red-200 text-red-900 block mx-auto p-3">Save</button>
         
         </form>
     </div>
