@@ -12,14 +12,14 @@ function Home() {
 
         {/* Description Card */}
         <p className="text-gray-700 text-base leading-7 text-justify">
-          The <span className="font-semibold text-pink-600">Employee Management System</span> is a simple and efficient web application designed to manage employee records easily. 
+          The <b>Employee Management System</b> is a simple and efficient web application designed to manage employee records easily. 
           It allows users to add new employees, view employee details, update existing information, and delete records whenever required.
           <br /><br />
           This application provides a user-friendly interface for performing all basic employee management operations in an organized way. 
           It helps in maintaining employee data accurately and demonstrates the implementation of CRUD operations using modern web technologies.
         </p>
 
-        {/* Feature Highlights */}
+        {/* Details */}
         <div className="mt-6 grid grid-cols-1 md:grid-cols-3 gap-4 text-center">
           <div className="bg-pink-50 p-4 rounded-lg border">
             <h3 className="font-semibold text-pink-700">Add</h3>
